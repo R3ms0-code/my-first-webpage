@@ -1,16 +1,17 @@
-<h4 align="center">My Personal Profile</h4>
+<header> <h1 align="center">My Personal Profile</h1> </header>
 
 <html lang="en"> 
     <body>
-        <link href="styles.css" type="text/css" rel="stylesheet">
-        <table border="1" cellspacing = "3" cellpadding ="5" align="center">
-            <tr style=" background-color: papayawhip;">
-                <td colspan="4" style="text-align: center" > <h1>Renzo M. Sibayan</h1></td>
+        <link href="styles_me2.css" type="text/css" rel="stylesheet">
+        <main>
+            <table border="1" cellspacing = "3" cellpadding ="5">
+            <tr style = "background-color: papayawhip;">
+                <td colspan="4" style="text-align: center" id="name"> <h1>Renzo M. Sibayan</h1></td>
             </tr>
 
             <tr>
-                <td style="text-align: center; background-color: papayawhip;"> <img src = "images/Picture1.jpg" height="200" > </img> </td>
-                <td>
+                <td class = "category"> <img src = "images/Picture1.jpg" height="200" > </img> </td>
+                <td class = "content" id = "bioProfile">
                     <p> <b> Full Name: </b> Renzo M. Sibayan </p> 
                     <p> <b> Birthday: </b> September 13, 2007 </p>
                     <p> <b> Status: </b> Student </p>
@@ -18,9 +19,9 @@
             </tr>
 
             <tr>
-                <td style="background-color :PapayaWhip; text-align: center;"> <b>Hobbies</b> </td>
-                <td>
-                    <ul>
+                <td class = "category"> <b>Hobbies</b> </td>
+                <td class = "content">
+                    <ul id="hobby">
                         <li> Playing Video Games </li>
                         <li> Taking Walks </li>
                         <li> <del>Thinking of</del> Coding Projects </li>
@@ -29,9 +30,9 @@
             </tr>
 
             <tr>
-                <td style="background-color :PapayaWhip; text-align: center;"> <b>Top 3 Movies</b> </td>
-                <td>
-                    <ol>
+                <td class = "category"> <b>Top 3 Movies</b> </td>
+                <td class = "content">
+                    <ol id="Movies">
                         <li> Dune: Part Two (2024) </li> 
                         <li> Superman (2025) </li>
                         <li> 12 Angry Men (1957) </li>
@@ -40,22 +41,22 @@
             </tr>
 
             <tr style="text-align: center;">
-                <td style="background-color :PapayaWhip"> <b>Favorite Quote</b> </td>
-                <td> <i> <blockquote> " Subdue the regret. Dust yourself off, proceed. </blockquote> 
+                <td class = "category"> <b>Favorite Quote</b> </td>
+                <td class = "content"> <i> <blockquote> " Subdue the regret. Dust yourself off, proceed. </blockquote> 
                      <blockquote>  You'll get it in the next life, where you don't make mistakes.</blockquote>
                      <blockquote> Do what you can with this one, while you're alive. " </blockquote> </i>
                 </td>
             </tr>
 
             <tr>
-                <td style="background-color : papayawhip; text-align: center;"> <b> Fun Fact </b> </td>
-                <td> My favorite show is Andor (2022)! </td>
+                <td class = "category"> <b> Fun Fact </b> </td>
+                <td class = "content"> My favorite show is Andor (2022)! </td>
             </tr>
 
-            <tr style="background-color : papayawhip; text-align: center;">
-                <td colspan="2"> <a href ="https://github.com/R3ms0-code">My Github Profile </a> </td>
+            <tr>
+                <td colspan="2" class = "category" > <a href ="https://github.com/R3ms0-code">My Github Profile </a> </td>
             </tr>
-
-        </table>
+            </table>
+        </main>
     </body>
 </html>

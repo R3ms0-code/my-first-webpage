@@ -1,0 +1,60 @@
+* {box-sizing: border-box;}
+
+header {
+    font-size: x-large;
+    border: 5px;
+    border-style: groove;
+    border-color: black;
+    width: 50%;
+    margin-left: 25% ;
+    margin-right: 20%;
+    background-color: aliceblue;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color: floralwhite;
+}
+
+table{
+    background-color: aliceblue;
+    margin: auto;
+    border: 5px;
+    padding: 0;
+    border-style: groove;
+    border-color: black;
+    width: 50%;
+}
+
+#name{
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+#bioProfile {
+    font-size: 25px;
+}
+td.category {
+    background-color: papayawhip; 
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+td.content {
+    font-family: monospace, sans-serif;
+    padding: 15px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+blockquote {text-align: center;}
+
+a:hover {
+    text-decoration: solid;
+}
+
+a:visited {
+    color:blueviolet;
+}
